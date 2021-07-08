@@ -1,0 +1,65 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+}
+.descriptions {
+  background-image: Url("main2.jpg");
+  color: white;
+  height: 200px;
+  font-size: large;
+  font-family: sans-serif;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 30px;
+  margin : 50px;
+  border-style: solid;
+  justify-content: center;
+align-items: center;
+border-width: 3px;
+background-color: coral;
+}
+.origami {
+  border-radius: 30px;
+  border-width: 3px;
+  border-style: solid;
+  width: 350px;
+margin : 20px;
+padding : 10px;
+background-color: white;
+justify-content: center;
+align-items: center;
+
+}
+.grid img{
+  margin-left: 70px;
+  border: 2px solid black;
+  border-radius: 50px;
+} 
+.menu:hover a{
+  color : purple;
+}
+.origami{
+  position: relative;
+}
+.origami h3{
+  position: absolute;
+  top:25%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  opacity : 0;
+}
+.origami:hover h3{
+  opacity: 1;
+}
+.origami:hover img{
+  opacity: 0.33
+}
